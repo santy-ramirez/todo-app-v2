@@ -10,8 +10,8 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    #072448 0%,
+    #103a6d 100%
   );
 }
 .todo-app {
@@ -20,7 +20,7 @@ body {
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background: #edd2cb;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -29,7 +29,7 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: rgb(17, 16, 16);
   font-size: 24px;
 }
 
@@ -45,15 +45,15 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid #f55951;
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: rgb(41, 36, 36);
 }
 
 .todo-input::placeholder {
-  color: #e2e2e2;
+  color: #302d2d;
 }
 
 .todo-button {
@@ -62,24 +62,20 @@ h1 {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-  color: #fff;
+  background-color:#f55951 ;
+  color: rgb(29, 26, 26);
   text-transform: capitalize;
 }
 
 .todo-input.edit {
-  border: 2px solid #149fff;
+  border: 2px solid #fc3434;
 }
 
 .todo-button.edit {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(248, 76, 99) 0%,
+    rgb(197, 35, 48) 100%
   );
   padding: 16px 22px;
 }
@@ -95,41 +91,15 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
-  color: #fff;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
-  );
+  color: rgb(22, 21, 21);
+  background-color:#f55951 ;
 
   padding: 16px;
   border-radius: 5px;
   width: 90%;
 }
 
-/*.todo-row:nth-child(4n + 1) {
-  background: linear-gradient(
-    90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
-  );
-}
 
-.todo-row:nth-child(4n + 2) {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
-  );
-}
-
-.todo-row:nth-child(4n + 3) {
-  background: linear-gradient(
-    90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
-  );
-}*/
 
 .icons {
   display: flex;
@@ -140,9 +110,9 @@ h1 {
 
 .delete-icon {
   margin-right: 5px;
-  color: #fff;
+  color: rgb(15, 14, 14);
 }
 
 .edit-icon {
-  color: #fff;
+  color: rgb(22, 22, 22);
 }
