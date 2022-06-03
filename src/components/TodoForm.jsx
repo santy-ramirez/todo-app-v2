@@ -28,7 +28,7 @@ console.log(props.edit)
       {props.edit ? (
         <>
           <input
-            placeholder='Update your item'
+            placeholder='actualizar tarea'
             value={input}
             onChange={handleChange}
             name='text'
@@ -42,7 +42,7 @@ console.log(props.edit)
       ) : (
         <>
           <input
-            placeholder='Add a todo'
+            placeholder='agrega tarea'
             value={input}
             onChange={handleChange}
             name='text'
@@ -50,7 +50,7 @@ console.log(props.edit)
             ref={inputRef}
           />
           <button onClick={handleSubmit} className='todo-button'>
-            Add todo
+            agrega tarea
           </button>
         </>
       )}
