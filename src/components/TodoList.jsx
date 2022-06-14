@@ -6,7 +6,7 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
  console.log(todos)
   const addTodo = todo => {
-    if (!todo.text || /^\s*$/.test(todo.text)) {
+    if (!todo.text) {
       return;
     }
 
@@ -18,7 +18,7 @@ function TodoList() {
   };
 
   const updateTodo = (todoId, newValue) => {
-    if (!newValue.text || /^\s*$/.test(newValue.text)) {
+    if (!newValue.text) {
       return;
     }
 

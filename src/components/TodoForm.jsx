@@ -36,13 +36,13 @@ console.log(props.edit)
             className='todo-input edit'
           />
           <button onClick={handleSubmit} className='todo-button edit'>
-            Update
+           Actualizar
           </button>
         </>
       ) : (
         <>
           <input
-            placeholder='agrega tarea'
+            placeholder='agregar tarea'
             value={input}
             onChange={handleChange}
             name='text'
