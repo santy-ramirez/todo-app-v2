@@ -1,4 +1,4 @@
-<div aling= "center">
+<div align = "center">
 
 <h1>Todo-app-v2</h1>
 
