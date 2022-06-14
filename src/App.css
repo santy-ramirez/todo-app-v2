@@ -10,10 +10,13 @@
 body {
   background: linear-gradient(
     90deg,
-    #072448 0%,
+    #6384bc 0%,
+   
+
     #103a6d 100%
   );
 }
+
 .todo-app {
   display: flex;
   flex-direction: column;
